@@ -1,0 +1,34 @@
+p {
+  font-family: Lato;
+}
+.search-results {
+  height: 700px;
+  overflow: scroll;
+}
+.title {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-70%);
+  left: 0;
+  background-color: rgba(0,0,0,.5);
+  color: white;
+  width: 100%;
+}
+.showmore{
+  text-align: center;color: black;font-size: 30px;font:200;
+}
+.title small {
+  color: #eaeaea;
+}
+html {
+  overflow: scroll;
+  overflow-y: hidden;
+}
+::-webkit-scrollbar {
+  width: 0px;  /* remove scrollbar space */
+  background: transparent;  /* optional: just make scrollbar invisible */
+}
+/* optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+  background: #FF0000;
+}
